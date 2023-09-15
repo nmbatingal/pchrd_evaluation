@@ -1,0 +1,10 @@
+<!-- Edit this file to change the layout of each record in the table view -->
+<!-- To disable clicking of a field, remove the  and  formatters around it-->
+
+<!-- If you wish to hide the table view header that contains the column titles, -->
+<!-- add the following to the responses_init() hook (in hooks/responses.php file) -->
+<!--     $options->ShowTableHeader = 0;     -->
+
+		<td id="responses-respondent_id-<%%VALUE(id)%%>" class="responses-respondent_id"><%%VALUE(respondent_id)%%></td>
+		<td id="responses-question_id-<%%VALUE(id)%%>" class="responses-question_id"><%%VALUE(question_id)%%></td>
+		<td id="responses-response-<%%VALUE(id)%%>" class="responses-response"><%%VALUE(response)%%></td>
