@@ -1,7 +1,7 @@
 <?php
-$dbServer = 'localhost';
-$dbUsername = 'root';
-$dbPassword = '';
+$dbServer = 'db';
+$dbUsername = 'pchrd_evaluation';
+$dbPassword = 'pchrd_evaluation';
 $dbDatabase = 'pchrd_evaluation';
 
 $adminConfig = array(
